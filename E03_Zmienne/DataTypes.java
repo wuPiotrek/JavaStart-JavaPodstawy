@@ -5,9 +5,9 @@ class DataTypes{
 		int carYyear = 2013;
 		double carPrice = 50000.99;
 		
-		System.out.println("Choosen car is: " + brand);
+		System.out.println("Wybrany samochód: " + brand);
 		System.out.println("Model: " + model);
-		System.out.println("Year of production: " + carYyear);
-		System.out.println("Price of the car: " + carPrice + " z³");	
+		System.out.println("Rok produkcji: " + carYyear);
+		System.out.println("Cena: " + carPrice + " z³");	
 	}
 }
