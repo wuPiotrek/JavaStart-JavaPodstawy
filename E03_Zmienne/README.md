@@ -2,7 +2,7 @@
 
 Napisz program, w którym zadeklarujesz zmienne, które będą reprezentować samochód w salonie samochodowym poprzez:
 
-markę
+markę\n
 model
 rocznik
 cenę
