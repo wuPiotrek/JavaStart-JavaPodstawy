@@ -1,6 +1,6 @@
 # Zmienne
 
-#### Napisz program, w którym zadeklarujesz zmienne, które będą reprezentować samochód w salonie samochodowym poprzez:
+Napisz program, w którym zadeklarujesz zmienne, które będą reprezentować samochód w salonie samochodowym poprzez:
 
 markę
 model
