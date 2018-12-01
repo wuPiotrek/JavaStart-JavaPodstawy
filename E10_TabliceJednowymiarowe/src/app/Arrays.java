@@ -4,12 +4,23 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		
-		int[] firstTable = {2, 4, 5};
-		int[] secondTable = {4, 6, 3};
+		double[][] tab = new double[3][];
+		double[] line0 = {1.0, 1.5, 2.0};
+		double[] line1 = {1.5, 2.0, 2.5};
+		double[] line2 = {2.0, 2.5, 3.0};
 		
-		int sum = firstTable[0] + firstTable[1] + firstTable[2] + secondTable[0] + secondTable[1] + secondTable[2];
+		tab[0] = line0;
+		tab[1] = line1;
+		tab[2] = line2;
 		
-		System.out.println(sum);
+		double result = (tab[0][0]*tab[1][1]*tab[2][2]) + (tab[0][2]*tab[1][1]*tab[2][0]);
+		System.out.println("Suma iloczynów przek¹tnych tablicy: " + result);
+		
+		result = (tab[0][1]+tab[1][1]+tab[2][1]) * (tab[1][0]+tab[1][1]+tab[1][2]);
+		System.out.println("Iloczyn sum œrodkowego wiersza i œrodkowej kolumny tablicy: " + result);
+		
+		result = tab[0][0] + tab[0][1] + tab[0][2] + tab[1][0] + tab[1][2] + tab[2][0] + tab[2][1] + tab[2][2];
+		System.out.println("Sumê wszystkich elementów znajduj¹cych siê przy krawêdzi tablicy: " + result);
 		
 	}
 
